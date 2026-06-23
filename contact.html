@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BAACO Properties | Contact Us</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body data-page="contact">
+  <header id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="Images/ChatGPT Image Jun 22, 2026, 10_17_22 AM.png" alt="BAACO Properties logo" class="logo-image" />
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="team.html" class="nav-link">Our Team</a></li>
+          <li><a href="acquisition.html" class="nav-link">Acquisition Criteria</a></li>
+          <li><a href="properties.html" class="nav-link">Properties</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="mobile-link">Home</a>
+      <a href="about.html" class="mobile-link">About Us</a>
+      <a href="team.html" class="mobile-link">Our Team</a>
+      <a href="acquisition.html" class="mobile-link">Acquisition Criteria</a>
+      <a href="properties.html" class="mobile-link">Properties</a>
+      <a href="contact.html" class="mobile-link">Contact Us</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="hero-sub">Contact</p>
+      <h1 class="page-title">Connect with BAACO Properties about acquisitions, portfolio opportunities, or general inquiries.</h1>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-background"></div>
+    <div class="contact-container">
+      <div class="contact-left">
+        <h2>You Have Questions,<br>We Have Answers</h2>
+        <p>Our team is ready to assist with acquisition opportunities, partnerships, and strategic inquiries across our multi-market portfolio.</p>
+        
+        <div class="contact-block">
+          <h4>Location</h4>
+          <p>10 Daniel St<br>Farmingdale, NY 11735</p>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-top: 8px;">Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+        </div>
+
+        <div class="contact-block">
+          <h4>General Inquiries</h4>
+          <p><a href="mailto:info@baacoproperties.com">info@baacoproperties.com</a></p>
+          <p><a href="tel:18005552204">(800) 555-2204</a></p>
+        </div>
+
+        <div class="contact-block">
+          <h4>Key Contacts</h4>
+          <p><strong>Aaron Hakimian</strong> (Owner)<br><a href="mailto:Aaron@Baacoproperties.com">Aaron@Baacoproperties.com</a></p>
+          <p style="margin-top: 12px;"><strong>Eitan Zargari</strong> (VP Acquisitions)<br><a href="mailto:Eitan@Baacoproperties.com">Eitan@Baacoproperties.com</a><br><a href="tel:5264679761">526-467-9761</a></p>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <div class="contact-card">
+          <h3>Tell Us What You Need</h3>
+          <p>Our team is ready to assist you with every detail, big or small.</p>
+          
+          <form class="contact-form" id="contactForm" data-firebase-form="true">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required />
+              </div>
+              <div class="form-group">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="company" name="company" placeholder="Company" />
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" />
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <input type="email" id="email" name="email" placeholder="Email Address" required />
+            </div>
+
+            <div class="form-group full-width">
+              <input type="text" id="inquiryType" name="inquiryType" placeholder="Type of Inquiry" required />
+            </div>
+
+            <div class="form-group full-width">
+              <textarea id="message" name="message" placeholder="Message" rows="5"></textarea>
+            </div>
+
+            <div class="form-checkbox">
+              <input type="checkbox" id="updates" name="updates">
+              <label for="updates">I'd like to receive exclusive updates about BAACO's portfolio and opportunities</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Inquiry</button>
+            <div class="form-success" id="formSuccess">Thank you! We will be in touch shortly.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-map-section">
+    <div class="container">
+      <div class="contact-map-header">
+        <div>
+          <div class="section-label">Visit Us</div>
+          <h3 class="contact-map-title">Map & Directions</h3>
+        </div>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=10+Daniel+Street+Farmingdale+NY+11735"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="map-directions-link"
+        >
+          Open in Google Maps
+        </a>
+      </div>
+      <div class="contact-map-frame">
+        <iframe
+          src="https://www.google.com/maps?q=10+Daniel+Street+Farmingdale+NY+11735&z=13&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map showing BAACO Properties headquarters"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="Images/ChatGPT Image Jun 22, 2026, 10_17_22 AM.png" alt="BAACO Properties logo" class="footer-logo-image" />
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="team.html">Our Team</a>
+        <a href="acquisition.html">Acquisition Criteria</a>
+        <a href="properties.html">Properties</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 BAACO Properties. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="firebase-contact.js"></script>
+</body>
+</html>
+
