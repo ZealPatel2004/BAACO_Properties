@@ -3106,7 +3106,7 @@ a, button, [role="button"] {
 /* Improved Hero Section */
 .hero {
   position: relative;
-  background: url('images/image.png') center/cover no-repeat, linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+  background: url('Images/image.png') center/cover no-repeat, linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
   background-blend-mode: overlay;
 }
 
