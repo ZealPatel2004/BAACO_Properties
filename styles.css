@@ -498,6 +498,10 @@ nav {
   overflow: hidden;
 }
 
+.page-hero .hero-media-scroller {
+  display: none;
+}
+
 .page-hero::before {
   content: "";
   position: absolute;
