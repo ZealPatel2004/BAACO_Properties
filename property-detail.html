@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BAACO Properties | Properties</title>
+  <title>BAACO Properties | Property Details</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
@@ -37,7 +37,7 @@
     </div>
   </header>
 
-  <section class="page-hero">
+  <section class="page-hero property-page-hero">
     <div class="hero-media-scroller" aria-label="Scrollable building background image">
       <img
         src="Images/image.png"
@@ -46,20 +46,41 @@
       />
     </div>
     <div class="container">
-      <p class="hero-sub">Portfolio</p>
-      <h1 class="page-title">A diversified approach across commercial and mixed-use real estate.</h1>
+      <p class="hero-sub" id="propertyHeroType">Portfolio Asset</p>
+      <h1 class="page-title" id="propertyHeroTitle">Property Details</h1>
     </div>
   </section>
 
-  <section class="section section-alt">
+  <section class="section section-alt property-detail-section" id="propertyDetailPage">
     <div class="container">
-      <div class="section-label">Property Directory</div>
-      <h2 class="section-title">Click any property to view full details</h2>
-      <div class="divider"></div>
-      <p class="section-intro">
-        Explore individual property pages featuring asset descriptions, quick highlights, and location-specific details from across the BAACO Properties portfolio.
-      </p>
-      <div class="properties-mosaic properties-gallery" id="propertiesGrid" aria-label="Property gallery"></div>
+      <a href="properties.html" class="property-back-link">Back to Properties</a>
+      <div class="property-detail-shell">
+        <div class="property-detail-main">
+          <div class="property-detail-media">
+            <img id="propertyDetailImage" src="Images/image.png" alt="Property" class="property-detail-image" />
+          </div>
+          <div class="property-detail-copy">
+            <div class="section-label" id="propertyDetailLabel">Property Profile</div>
+            <h2 class="section-title" id="propertyDetailName">Property Details</h2>
+            <div class="divider"></div>
+            <p class="property-detail-location" id="propertyDetailLocation"></p>
+            <div class="property-description" id="propertyDescription"></div>
+          </div>
+        </div>
+        <aside class="property-detail-aside">
+          <div class="property-facts-card">
+            <div class="section-label">Quick Facts</div>
+            <div class="property-facts-grid" id="propertyFactsGrid"></div>
+            <a href="contact.html" class="cta-button property-detail-cta">Inquire About This Property</a>
+          </div>
+        </aside>
+      </div>
+      <div class="property-highlights-section">
+        <div class="section-label">Property Highlights</div>
+        <h3 class="section-title">Key asset details</h3>
+        <div class="divider"></div>
+        <div class="property-highlights-grid" id="propertyHighlightsGrid"></div>
+      </div>
     </div>
   </section>
 
@@ -85,4 +106,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
