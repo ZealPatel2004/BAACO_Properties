@@ -433,6 +433,7 @@ nav {
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 1;
+  pointer-events: auto;
   scrollbar-gutter: stable;
   scrollbar-width: auto;
   scrollbar-color: #c8922a rgba(8, 19, 36, 0.72);
@@ -455,6 +456,7 @@ nav {
 
 .hero-media-image {
   width: 100%;
+  max-width: none;
   min-height: 100%;
   height: auto;
   display: block;
