@@ -85,6 +85,19 @@
         `
       )
       .join("");
+
+    const mapQuery = encodeURIComponent(property.mapQuery || `${property.name}, ${property.location}`);
+    const mapFrame = document.getElementById("propertyMapFrame");
+    const mapLink = document.getElementById("propertyMapLink");
+
+    if (mapFrame) {
+      mapFrame.src = `https://www.google.com/maps?q=${mapQuery}&z=14&output=embed`;
+      mapFrame.title = `Map showing ${property.name}`;
+    }
+
+    if (mapLink) {
+      mapLink.href = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`;
+    }
   };
 
   renderPropertiesGrid();

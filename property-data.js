@@ -6,6 +6,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "43,157 Sq. Ft.",
     type: "Office Building",
     cardLabel: "Office",
+    mapQuery: "150 West State Street, Trenton, NJ 08608",
     image: "Images/property-150-west-state-street.png",
     cardClass: "",
     description: [
@@ -32,6 +33,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "62,000 Sq. Ft.",
     type: "Mixed-Use Property",
     cardLabel: "Mixed-Use",
+    mapQuery: "3000 Hempstead Turnpike, Levittown, NY",
     image: "Images/Screenshot 2026-06-22 124633.png",
     cardClass: "card-large",
     description: [
@@ -58,6 +60,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "50,000 Sq. Ft.",
     type: "Industrial Property",
     cardLabel: "Industrial",
+    mapQuery: "10 Daniel Street, Farmingdale, NY 11735",
     image: "Images/Screenshot 2026-06-22 124623.png",
     cardClass: "",
     description: [
@@ -84,6 +87,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "22,000 Sq. Ft.",
     type: "Medical Office Building",
     cardLabel: "Medical Office",
+    mapQuery: "78 Todt Hill Road, Staten Island, NY",
     image: "Images/Screenshot 2026-06-22 124729.png",
     cardClass: "",
     description: [
@@ -110,6 +114,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "15,000 Sq. Ft.",
     type: "Office Building",
     cardLabel: "Office",
+    mapQuery: "340 Bay Street, Staten Island, NY 10301",
     image: "Images/Screenshot 2026-06-22 124642.png",
     cardClass: "",
     description: [
@@ -136,6 +141,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "30,000 Sq. Ft.",
     type: "Medical Office Building",
     cardLabel: "Medical Office",
+    mapQuery: "415 West Landis Avenue, Vineland, NJ",
     image: "Images/Screenshot 2026-06-22 124628.png",
     cardClass: "card-tall",
     description: [
@@ -162,6 +168,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "23,000 Sq. Ft.",
     type: "Medical Office Building",
     cardLabel: "Medical Office",
+    mapQuery: "80 Maple Avenue, Smithtown, NY",
     image: "Images/Screenshot 2026-06-22 124721.png",
     cardClass: "",
     description: [
@@ -189,6 +196,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "17,000 Sq. Ft.",
     type: "Medical Office Building",
     cardLabel: "Medical Office",
+    mapQuery: "294 West Merrick Road, Freeport, NY",
     image: "Images/Screenshot 2026-06-22 124700.png",
     cardClass: "",
     description: [
@@ -216,6 +224,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "5,000 Sq. Ft.",
     type: "Medical Office Building",
     cardLabel: "Medical Office",
+    mapQuery: "918 Pelham Parkway South, Bronx, NY",
     image: "Images/Screenshot 2026-06-22 124707.png",
     cardClass: "",
     description: [
@@ -243,6 +252,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "7,100 Sq. Ft.",
     type: "Retail Shopping Center",
     cardLabel: "Retail",
+    mapQuery: "1308 Straight Path, Wyandanch, NY",
     image: "Images/Screenshot 2026-06-22 124704.png",
     cardClass: "",
     description: [
@@ -270,6 +280,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "Commercial Parking Lot",
     type: "Parking Asset",
     cardLabel: "Parking",
+    mapQuery: "157 West Hanover Street, Trenton, NJ 08608",
     image: "Images/property-157-west-hanover-street.png",
     cardClass: "",
     description: [
@@ -297,6 +308,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "Vacant Development Lot",
     type: "Development Land",
     cardLabel: "Development",
+    mapQuery: "411 West Elmers Street, Vineland, NJ",
     image: "Images/Screenshot 2026-06-22 124733.png",
     cardClass: "",
     description: [
@@ -324,6 +336,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "25,000 Sq. Ft.",
     type: "Retail Space",
     cardLabel: "Retail",
+    mapQuery: "242 Broadhollow Road, Farmingdale, NY",
     image: "Images/Screenshot 2026-06-22 124637.png",
     cardClass: "card-tall",
     description: [
@@ -351,6 +364,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "6,500 Sq. Ft.",
     type: "Retail Shopping Center",
     cardLabel: "Retail",
+    mapQuery: "50 Middle Country Road, Coram, NY",
     image: "Images/Screenshot 2026-06-22 124725.png",
     cardClass: "",
     description: [
@@ -378,6 +392,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "7,000 Sq. Ft.",
     type: "Mixed-Use Property",
     cardLabel: "Mixed-Use",
+    mapQuery: "13 Glen Cove Road, Greenvale, NY",
     image: "Images/property-13-glen-cove-road.png",
     cardClass: "",
     description: [
@@ -405,6 +420,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "2,500 Sq. Ft.",
     type: "Mixed-Use Property",
     cardLabel: "Mixed-Use",
+    mapQuery: "403 Jersey Street, Staten Island, NY",
     image: "Images/Screenshot 2026-06-22 124711.png",
     cardClass: "card-tall",
     description: [
@@ -432,6 +448,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "10,000 Sq. Ft.",
     type: "Retail Space",
     cardLabel: "Retail",
+    mapQuery: "278 North Main Street, Lewisberg, KY",
     image: "Images/Screenshot 2026-06-22 124646.png",
     cardClass: "",
     description: [
@@ -459,6 +476,7 @@ window.BAACO_PROPERTY_DATA = [
     size: "Vacant Development Site",
     type: "Development Land",
     cardLabel: "Development",
+    mapQuery: "151550 Commercial Drive, Addison, TX",
     image: "Images/Screenshot 2026-06-22 124744.png",
     cardClass: "",
     description: [
