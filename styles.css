@@ -1618,6 +1618,13 @@ nav {
   margin-top: 0;
 }
 
+.properties-gallery .card-tall,
+.properties-gallery .card-large,
+.properties-gallery .card-wide {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
 .mosaic-card-link {
   position: relative;
   display: block;
@@ -1637,6 +1644,12 @@ nav {
 .card-tall .mosaic-photo-image,
 .card-large .mosaic-photo-image {
   height: 420px;
+}
+
+.properties-gallery .card-tall .mosaic-photo-image,
+.properties-gallery .card-large .mosaic-photo-image,
+.properties-gallery .card-wide .mosaic-photo-image {
+  height: 240px;
 }
 
 .mosaic-card:hover .mosaic-photo,
