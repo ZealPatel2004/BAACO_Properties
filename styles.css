@@ -430,35 +430,29 @@ nav {
 .hero-media-scroller {
   position: absolute;
   inset: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 1;
-  pointer-events: auto;
-  scrollbar-gutter: stable;
-  scrollbar-width: auto;
-  scrollbar-color: #c8922a rgba(8, 19, 36, 0.72);
+  pointer-events: none;
 }
 
 .hero-media-scroller::-webkit-scrollbar {
-  width: 18px;
+  display: none;
 }
 
 .hero-media-scroller::-webkit-scrollbar-track {
-  background: rgba(8, 19, 36, 0.72);
-  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  display: none;
 }
 
 .hero-media-scroller::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #e3b557 0%, #c8922a 100%);
-  border-radius: 999px;
-  border: 3px solid rgba(8, 19, 36, 0.72);
+  display: none;
 }
 
 .hero-media-image {
   width: 100%;
   max-width: none;
   min-height: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
