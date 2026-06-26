@@ -225,7 +225,7 @@ window.BAACO_PROPERTY_DATA = [
     type: "Medical Office Building",
     cardLabel: "Medical Office",
     mapQuery: "918 Pelham Parkway South, Bronx, NY",
-    image: "Images/Screenshot 2026-06-22 124707.png",
+    image: "Images/Logo for parkway south.png",
     cardClass: "",
     description: [
       "Located in a well-established Bronx neighborhood, 918 Pelham Parkway South is a 5,000-square-foot medical office building designed to support independent medical practices and healthcare professionals. The property's efficient layout provides private offices, examination rooms, administrative space, and comfortable waiting areas, creating a functional environment for both providers and patients.",
