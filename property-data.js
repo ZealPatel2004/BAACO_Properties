@@ -1,5 +1,32 @@
 window.BAACO_PROPERTY_DATA = [
   {
+    slug: "4001-stinson-boulevard",
+    name: "4001 Stinson Boulevard",
+    location: "St. Anthony, Minnesota 55421",
+    size: "66,395 Sq. Ft.",
+    type: "Office Building",
+    cardLabel: "Office",
+    mapQuery: "4001 Stinson Boulevard, St. Anthony, Minnesota 55421",
+    image: "Images/image002.png",
+    cardClass: "",
+    description: [
+      "4001 Stinson Boulevard is a 66,395-square-foot office building in St. Anthony, Minnesota. The property includes 250 parking spots.",
+      "This office property is part of BAACO Properties' diversified commercial real estate portfolio."
+    ],
+    facts: [
+      { label: "Property Type", value: "Office Building" },
+      { label: "Building Size", value: "66,395 Sq. Ft." },
+      { label: "Location", value: "St. Anthony, Minnesota 55421" },
+      { label: "Parking", value: "250 parking spots" }
+    ],
+    highlights: [
+      { label: "Property Type", value: "Office building" },
+      { label: "Building Size", value: "66,395 square feet" },
+      { label: "Parking", value: "250 parking spots" },
+      { label: "Location", value: "4001 Stinson Boulevard, St. Anthony, Minnesota 55421" }
+    ]
+  },
+  {
     slug: "150-west-state-street",
     name: "150 West State Street",
     location: "Trenton, NJ 08608",
@@ -497,31 +524,4 @@ window.BAACO_PROPERTY_DATA = [
       { label: "Investment Focus", value: "Strategic land ownership with future commercial potential" }
     ]
   },
-  {
-    slug: "4001-stinson-boulevard",
-    name: "4001 Stinson Boulevard",
-    location: "St. Anthony, Minnesota 55421",
-    size: "66,395 Sq. Ft.",
-    type: "Office Building",
-    cardLabel: "Office",
-    mapQuery: "4001 Stinson Boulevard, St. Anthony, Minnesota 55421",
-    image: "Images/image002.png",
-    cardClass: "",
-    description: [
-      "4001 Stinson Boulevard is a 66,395-square-foot office building in St. Anthony, Minnesota. The property includes 250 parking spots.",
-      "This office property is part of BAACO Properties' diversified commercial real estate portfolio."
-    ],
-    facts: [
-      { label: "Property Type", value: "Office Building" },
-      { label: "Building Size", value: "66,395 Sq. Ft." },
-      { label: "Location", value: "St. Anthony, Minnesota 55421" },
-      { label: "Parking", value: "250 parking spots" }
-    ],
-    highlights: [
-      { label: "Property Type", value: "Office building" },
-      { label: "Building Size", value: "66,395 square feet" },
-      { label: "Parking", value: "250 parking spots" },
-      { label: "Location", value: "4001 Stinson Boulevard, St. Anthony, Minnesota 55421" }
-    ]
-  }
 ];
